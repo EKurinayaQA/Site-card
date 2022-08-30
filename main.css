@@ -1,0 +1,83 @@
+
+body 
+{
+  font-family: "Palatino Linotype", serif;
+  background: lightgray;
+}
+
+
+.container {
+  padding: 0 40px;
+  margin-left: 70px;
+}
+
+  
+a {
+  display: inline;
+  text-decoration:none;
+  margin-bottom: 0.4em;
+  position: relative;
+  margin-right: 12px;
+  }
+
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.2em 0;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 1em;
+  margin: 1.5em 0;
+}
+
+
+.photo {
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.9);
+  object-fit: cover;
+  margin-left: 50px;
+}
+
+.photo:hover {
+  border: 2px solid #808080;
+}
+
+
+.button {
+  width: 60px;
+  height: 25px;
+  background-color: #E6E6FA;
+  font-family: monospace;
+  border: 1.4px solid #696969;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 1.5px rgba(0, 0, 0, 0.5);
+  }
+
+.button:hover {
+  background-color: #FFF0F5;
+}
+
+.ImageBorder {
+  border-radius: 22.5px;
+  border: 1px, solid, transparent;
+  box-shadow: 0 1px 3.2px 1.5px rgba(0, 0, 0, 0.5);
+  }
+
+.ImageBorder:hover {
+  border: 1.8px solid #A9A9A9;
+}
+
+p {
+  margin-bottom: 45px;
+}
+
+.contacts {
+  margin-bottom: 40px;
+}
